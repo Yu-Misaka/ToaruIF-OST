@@ -1,0 +1,59 @@
+#command,param1,param2,param3,param4,
+#,
+print,大納涼祭自販機スタミナログボ,
+talk,show,0,
+wait_busy,,,,,
+chara,4002301,御坂 美琴,12,
+front_fader,1,
+stage,#00000080,
+overlay,1,
+talk,2,御坂 美琴,,,
++talk,show,1,
++御坂 美琴.fade,in,0.5,
++place,御坂 美琴,空白,空白,空白,
+talk,3,御坂 美琴,,,
++tips,2314004,
+talk,4,御坂 美琴,,,
+talk,5,御坂 美琴,,,
+talk,clear,
++talk,show,0,
++御坂 美琴.fade,out,0.5,
++tips,0,
+overlay,0,
+front_fader,0,
+end,,,,,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

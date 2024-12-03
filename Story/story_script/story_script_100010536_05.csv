@@ -1,0 +1,43 @@
+#command,param1,param2,param3,param4,
+#,
+print,とある魔術の禁書目録5巻チャプター36,
+control,1,
+stage,16001003,,,,
+bgm,stop,
+chara,2000101,インデックス,20,
+chara,46000101,闇咲 逢魔,10,
+place,闇咲 逢魔,インデックス,
++focus,on,インデックス,
+bgm,play,30010010,1,,
+fade,in,1,#000000,0,
++talk,start,
++talk,show,0,
+
+talk,1,インデックス,,,
++talk,show,1,,,
+talk,2,闇咲 逢魔,,,
+talk,3,インデックス,,,
+talk,4,闇咲 逢魔,,,
+talk,5,インデックス,,,
+talk,6,闇咲 逢魔,,,
+talk,7,闇咲 逢魔,,,
+talk,8,闇咲 逢魔,,,
+se,play,0300700000840,,,
+talk,9,闇咲 逢魔,,,
+talk,10,インデックス,,,
+talk,11,闇咲 逢魔,,,
+
+wait,1,
+fade,out,1,#FFFFFF,
+bgm,stop,,1,
+wait,1,
+[END],
+
+
+
+
+
+
+
+
+

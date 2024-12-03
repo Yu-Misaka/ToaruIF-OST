@@ -1,0 +1,184 @@
+#command,param1,param2,param3,param4,param5,
+#,
+stage,7001003,,,,,
+control,1,
+bgm,stop,
+chara,502000106,ＤＡ隊員Ａ,13,
+chara,502000106,ＤＡ隊員Ｂ,13,
+chara,502000106,ＤＡ隊員Ｃ,13,
+chara,502000106,ＤＡ隊員Ｄ,13,
+chara,76000101,心理定規,10,
+chara,42000101,垣根 帝督,13,
+place,垣根 帝督,心理定規,
++focus,on,垣根 帝督,
+fade,in,1,#000000,0,
++talk,start,
++talk,show,0,
+bgm,play,30010008,,,,
+wait,0.5,
+talk,1,垣根 帝督,,,,
++talk,show,
+talk,2,心理定規,,,,
+talk,3,垣根 帝督,,,,
+talk,4,垣根 帝督,,,,
+talk,5,心理定規,,,,
+talk,6,垣根 帝督,,,,
+talk,7,心理定規,,,,
+talk,8,垣根 帝督,,,,
+bgm,stop,
+talk,9,心理定規,,,,
+bgm,play,30010006,,,,
+talk,10,心理定規,,,,
+talk,11,垣根 帝督,,,,
+talk,12,垣根 帝督,,,,
+talk,13,心理定規,,,,
+talk,14,垣根 帝督,,,,
+bgm,play,30010008,,,,
+talk,15,心理定規,,,,
+talk,16,垣根 帝督,,,,
+talk,17,心理定規,,,,
+fade,out,1,#FFFFFF,0,
+bgm,stop,
+talk,show,0,
+stage,7008003,,,,,
+垣根 帝督.fade,out,0.5,
++心理定規.fade,out,0.5,
+垣根 帝督.fade,in,0.5,
++ＤＡ隊員Ａ.fade,in,0.5,
++ＤＡ隊員Ｂ.fade,in,0.5,
++垣根 帝督.facial,12,
++place,垣根 帝督,ＤＡ隊員Ａ,ＤＡ隊員Ｂ,
++focus,on,垣根 帝督,
+wait,2,
+fade,in,1,#FFFFFF,0,
+bgm,play,30010013,,,,
+talk,18,垣根 帝督,,,,
++talk,show,
+talk,19,ＤＡ隊員Ａ,,,,
+talk,20,垣根 帝督,,,,
+talk,21,ＤＡ隊員Ａ,,,,
+focus,off,垣根 帝督,ＤＡ隊員Ａ,ＤＡ隊員Ｂ,
+垣根 帝督.fade,out,0.5,
++ＤＡ隊員Ａ.fade,out,0.5,
++ＤＡ隊員Ｂ.fade,out,0.5,
+wait,0.5,
+se,play,300200000240,,,,
++ＤＡ隊員Ａ.fade,in,0.5,
++ＤＡ隊員Ｂ.fade,in,0.5,
++ＤＡ隊員Ｃ.fade,in,0.5,
++ＤＡ隊員Ｄ.fade,in,0.5,
++focus,off,ＤＡ隊員Ａ,ＤＡ隊員Ｃ,ＤＡ隊員Ｄ,ＤＡ隊員Ｂ,
++place,ＤＡ隊員Ａ,ＤＡ隊員Ｃ,ＤＡ隊員Ｄ,ＤＡ隊員Ｂ,
+wait,1,
+talk,22,ＤＡ隊員Ｂ,,,,
+ＤＡ隊員Ａ.fade,out,0.5,
++ＤＡ隊員Ｂ.fade,out,0.5,
++ＤＡ隊員Ｃ.fade,out,0.5,
++ＤＡ隊員Ｄ.fade,out,0.5,
+talk,23,垣根 帝督,,,,
++垣根 帝督.fade,in,0.5,
++place,垣根 帝督,
+wait,1,
+bgm,stop,
+fade,out,1,#FFFFFF,0,
++se,play,0300700000350,,,,
+talk,show,0,
+垣根 帝督.fade,out,0.5,
++ＤＡ隊員Ａ.fade,out,0.5,
++ＤＡ隊員Ｂ.fade,out,0.5,
+垣根 帝督.fade,in,
++垣根 帝督.facial,21,
++place,垣根 帝督,
++focus,on,垣根 帝督,
+wait,1,
+fade,in,1,#FFFFFF,0,
+talk,24,垣根 帝督,,,,
++talk,show,
+talk,25,垣根 帝督,,,,
+fade,out,1,#FFFFFF,0,
+se,play,0300200000011,,,,
+talk,show,0,
+stage,13001004,,,,,
++垣根 帝督.facial,14,
++focus,on,垣根 帝督,
+wait,2,
+fade,in,1,#FFFFFF,0,
+bgm,play,30010011,,,,
+talk,26,垣根 帝督,,,,
++talk,show,
+talk,27,垣根 帝督,,,,
+talk,28,垣根 帝督,,,,
+se,play,0300100000360,,,,
++focus,off,垣根 帝督,
+wait,1,
+talk,29,垣根 帝督,,,,
+talk,30,垣根 帝督,,,,
+talk,31,垣根 帝督,,,,
+talk,32,垣根 帝督,,,,
+talk,33,垣根 帝督,,,,
+talk,34,垣根 帝督,,,,
+talk,35,垣根 帝督,,,,
+talk,36,垣根 帝督,,,,
+talk,37,垣根 帝督,,,,
+talk,38,垣根 帝督,,,,
+talk,39,垣根 帝督,,,,
+talk,40,垣根 帝督,,,,
+bgm,stop,
+talk,41,垣根 帝督,,,,
+bgm,play,30010014,,,,
+talk,42,垣根 帝督,,,,
++se,play,0300700000390,,,,
++stage.shake,"(0.10,0)","(10,0)",1,
+wait,1,
+talk,43,垣根 帝督,,,,
+talk,44,垣根 帝督,,,,
+talk,45,垣根 帝督,,,,
++垣根 帝督.effect,ef_com_00000_002_003_00,"(100,-450)",2,0,
+talk,46,垣根 帝督,,,,
+wait,1,
+fade,out,1,#FFFFFF,0,
+垣根 帝督.effect,delete,
+bgm,stop,
+wait,1,
+[END],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,417 @@
+#command,param1,param2,param3,param4,
+#,
+control,1,
+stage,5001003,,,,
+bgm,stop,,,,
+chara,24000101,ステイル,16,
+chara,25000101,神裂 火織,13,
+chara,74000101,メアリエ,13,
+chara,73000101,マリーベート,13,
+chara,72000101,ジェーン,13,
+chara,1001301,上条 当麻,20,
+chara,1000101,上条 当麻（制服）,13,
+chara,37000101,佐天 涙子,12,
+chara,4000102,御坂 美琴,15,
+chara,36000101,初春 飾利,11,
+chara,70000101,シャットアウラ,11,
+chara,74000101,メアリエ,13,
+chara,72000101,ジェーン,13,
+chara,73000101,マリーベート,13,
+chara,5002101,白井 黒子,13,
+chara,71000101,レディリー,12,
+chara,2000101,インデックス,10,
+chara,69000101,鳴護 アリサ,15,
++place,神裂 火織,ステイル,上条 当麻,
++神裂 火織.fade,out,0.1,
++focus,off,ステイル,上条 当麻,
+fade,in,1,#000000,0,
++talk,start,
++talk,show,0,
+bgm,play,30010017,,,
+wait,0.5,
+神裂 火織.fade,in,0.5,
++se,play,300200000480,,,
+talk,101,神裂 火織,,,
++talk,show,1,
+talk,102,ステイル,,,
+神裂 火織.fade,out,0.5,
++ステイル.fade,out,0.5,
++上条 当麻.fade,out,0.5,
+wait,0.5,
+talk,1,メアリエたち,
++メアリエ.fade,in,0.5,
++ジェーン.fade,in,0.5,
++マリーベート.fade,in,0.5,
++place,メアリエ,ジェーン,マリーベート,
++focus,on,メアリエ,ジェーン,マリーベート,
+wait,1,
+メアリエ.fade,out,0.5,
++ジェーン.fade,out,0.5,
++マリーベート.fade,out,0.5,
+talk,103,上条 当麻,,,
++神裂 火織.fade,in,0.5,
++ステイル.fade,in,0.5,
++上条 当麻.fade,in,0.5,
++place,神裂 火織,ステイル,上条 当麻,
+talk,104,ステイル,,,
+talk,105,上条 当麻,,,
+image,400420102,1,シーン01,,
+シーン01.fade,in,0.5,
++se,play,300600000080,,,
+wait,1,
+上条 当麻.fade,in,0.5,
++シャットアウラ.fade,in,0.5,
++place,シャットアウラ,上条 当麻,
++上条 当麻.facial,13,
++シャットアウラ.facial,10,
++focus,on,上条 当麻,
+wait,1,
+シーン01.fade,out,0.1,
+talk,106,上条 当麻,,,
+se,play,300200000480,,,
+talk,107,シャットアウラ,,,
+talk,108,上条 当麻,,,
+talk,109,シャットアウラ,,,
+talk,110,シャットアウラ,,,
+wait,1,
+fade,out,1,#FFFFFF,0,
+bgm,stop,,,,
+stage,1003004,,,,
+talk,show,0,
+シャットアウラ.fade,out,0.5,
++place,鳴護 アリサ,上条 当麻,インデックス,
++インデックス.fade,in,0.5,
++上条 当麻.fade,in,0.5,
++鳴護 アリサ.fade,in,0.5,
++インデックス.facial,10,
++上条 当麻.facial,10,
++鳴護 アリサ.facial,16,
++focus,on,鳴護 アリサ,
+wait,2,
+bgm,play,30010004,,,
+fade,in,1,#FFFFFF,0,
+talk,111,鳴護 アリサ,,,
++talk,show,1,
+talk,112,インデックス,,,
+talk,113,上条 当麻,,,
+talk,114,上条 当麻,,,
+talk,115,鳴護 アリサ,,,
+talk,116,鳴護 アリサ,,,
+talk,117,鳴護 アリサ,,,
+talk,118,インデックス,,,
+talk,119,鳴護 アリサ,,,
+talk,120,上条 当麻,,,
+talk,121,上条 当麻,,,
+talk,122,鳴護 アリサ,,,
+talk,123,上条 当麻,,,
+talk,124,上条 当麻,,,
+talk,125,インデックス,,,
+talk,126,鳴護 アリサ,,,
+talk,127,上条 当麻,,,
+talk,128,上条 当麻,,,
+wait,1,
+fade,out,1,#FFFFFF,0,
+bgm,stop,,,,
+talk,show,0,
+image,400420102,2,シーン02,,
+シーン02.fade,in,0.5,
+wait,2,
+bgm,play,30010009,,,
+fade,in,1,#FFFFFF,0,
+talk,129,？？？,,,
++talk,show,1,
+talk,130,？？？,,,
+talk,131,シャットアウラ,,,
+talk,132,シャットアウラ,,,
+talk,133,？？？,,,
+image,400420102,3,シーン03,,
+シーン03.fade,in,0.5,
+シーン02.fade,out,0.1,
+wait,1,
+talk,134,？？？,,,
+talk,135,シャットアウラ,,,
+talk,136,？？？,,,
+se,play,300100000030,,,
+wait,1,
+fade,out,1,#FFFFFF,0,
+bgm,stop,,,,
+stage,1003004,,,,
+talk,show,0,
+インデックス.fade,out,0.5,
++place,鳴護 アリサ,上条 当麻（制服）,
++上条 当麻（制服）.fade,in,0.5,
++鳴護 アリサ.fade,in,0.5,
++上条 当麻（制服）.facial,10,
++鳴護 アリサ.facial,10,
++focus,on,上条 当麻（制服）,
+シーン03.fade,out,0.5,
+wait,2,
+bgm,play,30010001,,,
+fade,in,1,#FFFFFF,0,
+talk,137,上条 当麻（制服）,,,
++talk,show,1,
+talk,138,鳴護 アリサ,,,
+talk,139,上条 当麻（制服）,,,
+talk,140,鳴護 アリサ,,,
+wait,1,
+fade,out,1,#FFFFFF,0,
+talk,show,0,
+image,400420102,4,シーン04,,
+シーン04.fade,in,0.5,
+wait,1,
+fade,in,1,#FFFFFF,0,
+talk,141,御坂 美琴,,,
++talk,show,1,
+talk,142,初春 飾利,,,
+talk,143,初春 飾利,,,
+talk,144,初春 飾利,,,
+talk,145,白井 黒子,,,
+stage,26001004,,,,
+上条 当麻（制服）.fade,out,0.5,
++鳴護 アリサ.fade,out,0.5,
++place,御坂 美琴,白井 黒子,初春 飾利,佐天 涙子,
++御坂 美琴.fade,in,0.5,
++白井 黒子.fade,in,0.5,
++初春 飾利.fade,in,0.5,
++佐天 涙子.fade,in,0.5,
++御坂 美琴.facial,15,
++白井 黒子.facial,13,
++初春 飾利.facial,10,
++佐天 涙子.facial,12,
++focus,on,上条 当麻（制服）,
+image,400420102,5,シーン05,,
+シーン05.fade,in,0.5,
+シーン04.fade,out,0.1,
+wait,1,
+talk,146,佐天 涙子,,,
+talk,147,佐天 涙子,,,
+talk,148,御坂 美琴,,,
+talk,149,御坂 美琴,,,
+talk,150,鳴護 アリサ,,,
+image,400420102,51,シーン51,,
+シーン51.fade,in,0.5,
+シーン05.fade,out,0.1,
+wait,1,
+talk,151,レディリー,,,
+talk,152,レディリー,,,
+image,400420102,52,シーン52,,
+シーン52.fade,in,0.5,
+シーン51.fade,out,0.1,
+wait,1,
+talk,153,初春 飾利,,,
+talk,154,御坂たち,,,
++御坂 美琴.facial,15,
++白井 黒子.facial,15,
++佐天 涙子.facial,15,
++focus,on,御坂 美琴,白井 黒子,佐天 涙子,
+wait,1,
+fade,out,1,#FFFFFF,0,
+bgm,stop,,,,
+stage,1006,,,,
+talk,show,0,
++御坂 美琴.fade,out,0.5,
++白井 黒子.fade,out,0.5,
++初春 飾利.fade,out,0.5,
++佐天 涙子.fade,out,0.5,
+シーン52.fade,out,0.1,
+wait,2,
+bgm,play,30010003,,,
+fade,in,1,#FFFFFF,0,
+talk,155,アナウンス,,,
++talk,show,1,
+image,400420102,6,シーン06,,
+シーン06.fade,in,0.5,
+talk,show,0,
+wait,2,
+image,400420102,7,シーン07,,
+シーン07.fade,in,0.5,
+シーン06.fade,out,0.1,
+wait,2,
+image,400420102,8,シーン08,,
+シーン08.fade,in,0.5,
+シーン07.fade,out,0.1,
+talk,156,上条 当麻（制服）,,,
++talk,show,1,
+wait,1,
+talk,show,0,
+image,400420102,53,シーン53,,
+シーン53.fade,in,0.5,
+シーン08.fade,out,0.1,
+wait,1,
+talk,157,上条 当麻（制服）,,,
++talk,show,1,
+se,play,300200000100,,,
+image,400420102,54,シーン54,,
+シーン54.fade,in,0.5,
+シーン53.fade,out,0.1,
+talk,show,0,
+wait,1,
+image,400420102,55,シーン55,,
+シーン55.fade,in,0.5,
+シーン54.fade,out,0.1,
+wait,1,
+bgm,stop,,,,
+wait,1,
+bgm,play,30010017,,,
+image,400420102,56,シーン56,,
+シーン56.fade,in,0.5,
+シーン55.fade,out,0.1,
+wait,1,
+image,400420102,57,シーン57,,
+シーン57.fade,in,0.5,
+シーン56.fade,out,0.1,
+wait,1,
+image,400420102,9,シーン09,,
+シーン09.fade,in,0.5,
+シーン57.fade,out,0.1,
+wait,1,
+talk,158,シャットアウラ,,,
++talk,show,1,
+talk,159,シャットアウラ,,,
+wait,1,
+fade,out,1,#FFFFFF,0,
+se,play,300700000030,,,
+talk,show,0,
+stage,15001003,,,,
+place,シャットアウラ,
++シャットアウラ.fade,in,0.5,
++シャットアウラ.facial,16,
++focus,on,シャットアウラ,
++シーン09.fade,out,0.5,
+wait,1,
+se,play,300700000350,,,
+fade,in,1,#FFFFFF,0,
+talk,160,シャットアウラ,,,
++talk,show,1,
+シャットアウラ.fade,out,0.5,
++シャットアウラ.shake,"(0,-0.5,0)","(0,1)",1,
++se,play,300200000410,,,
+talk,show,0,
++上条 当麻（制服）.fade,out,0.5,
+se,play,300200000100,,,
+place,シャットアウラ,上条 当麻（制服）,
++シャットアウラ.fade,in,0.5,
++上条 当麻（制服）.fade,in,0.5,
++シャットアウラ.facial,16,
++上条 当麻（制服）.facial,13,
+talk,161,上条 当麻（制服）,,,
++talk,show,1,
+talk,162,シャットアウラ,,,
+image,400420102,10,シーン10,,
+シーン10.fade,in,0.5,
+wait,1,
+talk,163,上条 当麻（制服）,,,
+wait,2,
+fade,out,1,#FFFFFF,0,
+bgm,stop,
+wait,1,
+[END],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

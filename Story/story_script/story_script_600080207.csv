@@ -1,0 +1,72 @@
+#command,param1,param2,param3,param4,
+#,チャプター07：ファミリーレストラン　初春 飾利　佐天 涙子　,
+control,1,
+chara,37000101,佐天 涙子,14,
+chara,36000101,初春 飾利,14,
+place,佐天 涙子,初春 飾利,
++佐天 涙子.fade,out,0.1,
++初春 飾利.fade,out,0.1,
+talk,start,
++talk,show,0,
+stage,010001001,,,,
++fade,in,1.0,#000000,0,
++bgm,play,30010003,1,,
+talk,1,佐天 涙子,,,
++talk,show,1,
++佐天 涙子.fade,in,0.5,
+talk,2,初春 飾利,,,
++初春 飾利.fade,in,0.5,
+talk,3,佐天 涙子,,,
+talk,4,初春 飾利,,,
+talk,5,佐天 涙子,,,
+talk,6,初春 飾利,,,
+talk,7,佐天 涙子,,,
+talk,8,初春 飾利,,,
+talk,9,佐天 涙子,,,
+talk,10,初春 飾利,,,
+talk,11,佐天 涙子,,,
+talk,12,初春 飾利,,,
+wait,1,,,,
+fade,out,1.0,#FFFFFF,0,
+bgm,stop,
+wait,1,
+[END],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

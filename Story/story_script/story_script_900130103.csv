@@ -1,0 +1,46 @@
+#command,param1,param2,param3,param4,param5,param6,
+#,
+print,2023年バレンタインデー記念メッセージ chapter3,
+stage,000001015,,,,,,
+control,1,
+control,0,4,,,,,
+bgm,stop,1,
+chara,201000201,牧上 小牧,21,
+place,牧上 小牧,
++focus,on,牧上 小牧,
++牧上 小牧.fade,in,0.1,
++talk,start,
++talk,show,0,
+bgm,play,10030001,,,,,
+if_page,MemoriesExtra,[Memories],[NOTMemories],,,,
+[NOTMemories],MemoriesExtra,,,,,,
+牧上 小牧.fade,out,0.1,,,,,
+fade,in,1,#000000,0,,,
+wait,0.5,,,,,,
+talk,1,,,,,,
++talk,show,1,,,,,
+牧上 小牧.fade,in,1,,,,,
++focus,on,牧上 小牧,
+[Memories],,,,,,,
+if_page,MemoriesExtra,[Memories],[NOTMemories],,,,
+[Memories],,,,,,,
+fade,in,1,#000000,0,,,
+[NOTMemories],MemoriesExtra,,,,,,
+wait,0.5,
+talk,2,牧上 小牧,
++talk,show,1,
+talk,3,牧上 小牧,
+wait,1,
+open_reward,
+fade,out,1,#FFFFFF,0,
+bgm,stop,
+wait,1,
+[END],
+
+
+
+
+
+
+
+

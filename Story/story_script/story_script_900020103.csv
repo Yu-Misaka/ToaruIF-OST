@@ -1,0 +1,51 @@
+#command,param1,param2,param3,param4,param5,param6,
+#,
+print,上条 当麻 チャプター03,
+control,1,
+control,0,4,
+stage,30001001,,,,,,
+bgm,stop,1,
++image,999999999,0,シーン00,
+chara,1001101,上条 当麻,10,
+place,上条 当麻,
++focus,on,上条 当麻,
++上条 当麻.fade,out,0.1,
++talk,start,
++talk,show,0,
+bgm,play,30010003,,,,,
+fade,in,1,#000000,0,
+image,900020102,1,シーン01,,,,
+シーン01.fade,in,0.5,
+wait,2,
+シーン01.fade,out,0.5,
+上条 当麻.fade,in,0.5,
++se,play,300200000480,,,,,
+talk,1,上条 当麻,,,,,
++talk,show,1,
+talk,2,上条 当麻,,,,,
+talk,3,上条 当麻,,,,,
+talk,show,0,
+touch,,,,,,,
++上条 当麻.fade,out,0.5,
+screen.effect,ef_ui_01400_001_000_02,"(0,0)",3,0,,,
++control,0,,,,,,
+wait,9.5,
+omikuji_result,show,2,1001101,10,,,
++control,0,3,
+omikuji_talk,5,,,,,,
+omikuji_talk,9,,,,,,
+wait,1,
+fade,out,0.5,#FFFFFF,0,
+bgm,stop,
+wait,1,
+[END],
+
+
+
+
+
+
+
+
+
+

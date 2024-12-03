@@ -1,0 +1,67 @@
+#command,param1,param2,param3,param4,
+#,チャプター14：ファミリーレストラン　麦野 沈利　フレンダ＝セイヴェルン　,
+control,1,
+chara,19000101,フレンダ,10,
+chara,11000101,麦野 沈利,10,
+place,フレンダ,麦野 沈利,
++フレンダ.fade,out,0.1,
++麦野 沈利.fade,out,0.1,
+talk,start,
++talk,show,0,
+stage,010001001,,,,
++fade,in,1.0,#000000,0,
++bgm,play,030010001,,,
+talk,1,フレンダ,,,
++talk,show,1,
++フレンダ.fade,in,0.5,
+talk,2,麦野 沈利,,,
++麦野 沈利.fade,in,0.5,
+talk,3,フレンダ,,,
+talk,4,麦野 沈利,,,
+talk,5,フレンダ,,,
+talk,6,麦野 沈利,,,
+talk,7,フレンダ,,,
+wait,1,,,,
+fade,out,1.0,#FFFFFF,0,
+bgm,stop,
+wait,1,
+[END],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

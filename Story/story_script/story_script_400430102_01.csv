@@ -1,0 +1,265 @@
+#command,param1,param2,param3,param4,
+#,
+control,1,
+stage,1003001,,,,
+bgm,stop,,,,
+chara,1000201,上条 当麻,11,
+chara,1001501,上条 当麻（タキシード）,12,
+chara,43000101,レイヴィニア,10,
+chara,80000101,レッサー,11,
+chara,2001801,インデックス（クリスマス）,20,
+chara,45000701,オティヌス（肩）,10,
++attach,オティヌス（肩）,上条 当麻,
++オティヌス（肩）.fade,in,0.5,
++place,レイヴィニア,レッサー,インデックス（クリスマス）,上条 当麻,
++focus,on,レッサー,
+bgm,play,30010001,,,
+fade,in,1,#000000,0,
++talk,start,
++talk,show,0,
+wait,0.5,
+talk,1,レッサー,,,
++talk,show,1,
+talk,2,インデックス（クリスマス）,,,
+talk,3,レッサー,,,
+talk,4,インデックス（クリスマス）,,,
+talk,5,上条 当麻,,,
+talk,6,上条 当麻,,,
+talk,7,レイヴィニア,,,
+talk,8,レイヴィニア,,,
+talk,9,レッサー,,,
+talk,10,レッサー,,,
+talk,11,上条 当麻,,,
+talk,12,レイヴィニア,,,
+talk,13,レッサー,,,
+talk,14,上条 当麻,,,
+talk,15,上条 当麻,,,
+screen.effect,ef_com_00000_001_007_00,
+wait,1,
+fade,out,1,#FFFFFF,0,
+stage,7007003,,,,
+talk,show,0,
++レイヴィニア.fade,out,0.5,
++レッサー.fade,out,0.5,
++上条 当麻.fade,out,0.5,
++インデックス（クリスマス）.fade,out,0.5,
+place,上条 当麻（タキシード）,
++上条 当麻（タキシード）.fade,in,0.5,
++focus,on,上条 当麻（タキシード）,
+bgm,stop,,,,
+screen.effect,stop,
+wait,1,
+bgm,play,30010007,,,
+screen.effect,ef_com_00000_001_010_00,
+fade,in,1,#FFFFFF,0,
+talk,16,上条 当麻（タキシード）,,,
++talk,show,1,
++se,play,300800000560,,,
+wait,1,
+fade,out,1,#FFFFFF,0,
+stage,1003001,,,,
+talk,show,0,
++上条 当麻（タキシード）.fade,out,0.5,
+place,レイヴィニア,レッサー,インデックス（クリスマス）,上条 当麻,
++レイヴィニア.fade,in,0.5,
++レッサー.fade,in,0.5,
++上条 当麻.fade,in,0.5,
++インデックス（クリスマス）.fade,in,0.5,
++focus,on,レイヴィニア,
+screen.effect,stop,
+wait,1,
+fade,in,1,#FFFFFF,0,
+talk,17,レイヴィニア,,,
++talk,show,1,
+talk,18,上条 当麻,,,
+screen.effect,ef_com_00000_001_007_00,
+wait,1,
+fade,out,1,#FFFFFF,0,
+stage,16002003,,,,
+talk,show,0,
++レイヴィニア.fade,out,0.5,
++レッサー.fade,out,0.5,
++上条 当麻.fade,out,0.5,
++インデックス（クリスマス）.fade,out,0.5,
+place,上条 当麻（タキシード）,
++上条 当麻（タキシード）.fade,in,0.5,
++focus,on,上条 当麻（タキシード）,
+screen.effect,stop,
+wait,1,
+screen.effect,ef_com_00000_001_010_00,
+fade,in,1,#FFFFFF,0,
+talk,19,上条 当麻（タキシード）,,,
++talk,show,1,
++se,play,300800000560,,,
+wait,1,
+fade,out,1,#FFFFFF,0,
+stage,1003001,,,,
+talk,show,0,
++上条 当麻（タキシード）.fade,out,0.5,
+place,レイヴィニア,レッサー,インデックス（クリスマス）,上条 当麻,
++レイヴィニア.fade,in,0.5,
++レッサー.fade,in,0.5,
++上条 当麻.fade,in,0.5,
++インデックス（クリスマス）.fade,in,0.5,
++focus,on,レッサー,
+screen.effect,stop,
+wait,1,
+fade,in,1,#FFFFFF,0,
+talk,20,レッサー,,,
++talk,show,1,
+bgm,stop,,,,
+talk,21,上条 当麻,,,
+bgm,play,30010005,,,
+talk,22,レイヴィニアたち,,,
++focus,on,レイヴィニア,レッサー,
++レイヴィニア.facial,15,
++レッサー.facial,15,
+talk,23,レイヴィニア,,,
+talk,24,レッサー,,,
+talk,25,インデックス（クリスマス）,,,
+talk,26,上条 当麻,,,
+talk,27,上条 当麻,,,
+talk,28,レイヴィニアたち,,,
++focus,on,レイヴィニア,レッサー,インデックス（クリスマス）,
++インデックス（クリスマス）.facial,15,
++レイヴィニア.facial,15,
++レッサー.facial,15,
+talk,29,上条 当麻,,,
+bgm,stop,,,,
+wait,1,
+bgm,play,30010001,,,
+talk,30,上条 当麻,,,
+talk,31,上条 当麻,,,
+talk,32,レイヴィニア,,,
+talk,33,上条 当麻,,,
+talk,34,レイヴィニア,,,
+talk,35,上条 当麻,,,
+talk,36,レイヴィニア,,,
+se,play,300100000020,,,
+talk,37,レイヴィニア,,,
+talk,38,レッサー,,,
+talk,39,上条 当麻,,,
+talk,40,インデックス（クリスマス）,,,
+talk,41,上条 当麻,,,
+talk,42,インデックス（クリスマス）,,,
+talk,43,オティヌス（肩）,,,
+talk,44,上条 当麻,,,
+talk,45,上条 当麻,,,
+talk,46,上条 当麻,,,
+se,play,300100000030,,,
+talk,47,レイヴィニア,,,
+talk,48,レイヴィニア,,,
+wait,2,
+fade,out,1,#FFFFFF,0,
+bgm,stop,
+wait,1,
+[END],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

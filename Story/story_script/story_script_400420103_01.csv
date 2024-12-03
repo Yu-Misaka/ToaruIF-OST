@@ -1,0 +1,417 @@
+#command,param1,param2,param3,param4,
+#,
+control,1,
+stage,15001003,,,,
+bgm,stop,,,,
+chara,24000101,ステイル,13,
+chara,25000101,神裂 火織,10,
+chara,3000701,土御門 元春,12,
+chara,1000101,上条 当麻（制服）,16,
+chara,1001201,上条 当麻（赤）,10,
+chara,70000101,シャットアウラ,20,
+chara,71000101,レディリー,10,
+chara,69000101,鳴護 アリサ,14,
++place,シャットアウラ,
++focus,on,シャットアウラ,
+fade,in,1,#000000,0,
++talk,start,
++talk,show,0,
+wait,0.5,
+se,play,300100000430,,,
+talk,1,シャットアウラ,,,
++talk,show,1,
+image,400420103,1,シーン01,,
+シーン01.fade,in,0.5,
+se,play,300700000830,,,
++シーン01.shake,"(0.10,0)","(10,0)",1,
+talk,show,0,
+wait,1,
+image,400420103,2,シーン02,,
+シーン02.fade,in,0.5,
+シーン01.fade,out,0.1,
+se,play,300200000060,,,
+wait,1,
+talk,2,上条 当麻（制服）,,,
++talk,show,1,
+talk,3,シャットアウラ,,,
+stage,15001003,,,,
+place,シャットアウラ,上条 当麻（制服）,
++シャットアウラ.fade,in,0.5,
++上条 当麻（制服）.fade,in,0.5,
++シャットアウラ.facial,11,
++上条 当麻（制服）.facial,10,
++focus,on,上条 当麻（制服）,
+bgm,play,30010009,,,
+wait,1,
+シーン02.fade,out,0.5,
+talk,4,上条 当麻（制服）,,,
+talk,5,シャットアウラ,,,
+talk,6,シャットアウラ,,,
+talk,7,上条 当麻（制服）,,,
+talk,8,シャットアウラ,,,
+talk,9,シャットアウラ,,,
+talk,10,シャットアウラ,,,
+wait,1,
+fade,out,1,#FFFFFF,0,
+talk,show,0,
+bgm,stop,,,,
+image,400420103,54,シーン54,,
+シーン54.fade,in,0.5,
+wait,1,
+fade,in,1,#FFFFFF,0,
+talk,11,通行人Ａ,,,
++talk,show,1,
+talk,12,通行人Ｂ,,,
+stage,7002003,,,,
+place,鳴護 アリサ,
++鳴護 アリサ.fade,in,0.5,
++鳴護 アリサ.facial,14,
++focus,on,鳴護 アリサ,
+bgm,play,30010015,,,
+wait,1,
+シーン54.fade,out,0.5,
+talk,13,鳴護 アリサ,,,
++talk,show,1,
+talk,show,0,
++鳴護 アリサ.fade,out,0.5,
++上条 当麻（赤）.fade,out,0.5,
+place,鳴護 アリサ,上条 当麻（赤）,
++鳴護 アリサ.fade,in,0.5,
++上条 当麻（赤）.fade,in,0.5,
++鳴護 アリサ.facial,14,
++上条 当麻（赤）.facial,10,
++se,play,300200000480,,,
+talk,14,上条 当麻（赤）,,,
++talk,show,1,
+wait,1,
+fade,out,1,#FFFFFF,0,
+stage,5002003,,,,
+talk,show,0,
+wait,1,
+fade,in,1,#FFFFFF,0,
+talk,15,鳴護 アリサ,,,
++talk,show,1,
+talk,16,鳴護 アリサ,,,
+talk,17,鳴護 アリサ,,,
+talk,18,鳴護 アリサ,,,
+talk,19,上条 当麻（赤）,,,
+talk,20,上条 当麻（赤）,,,
+wait,1,
+fade,out,1,#FFFFFF,0,
+talk,show,0,
+image,400420103,3,シーン03,,
+シーン03.fade,in,0.5,
+wait,1,
+fade,in,1,#FFFFFF,0,
+talk,21,レディリー,,,
++talk,show,1,
+talk,22,シャットアウラ,,,
+talk,23,レディリー,,,
+talk,24,レディリー,,,
+wait,1,
+fade,out,1,#FFFFFF,0,
+bgm,stop,,,,
+stage,1001003,,,,
+talk,show,0,
++鳴護 アリサ.fade,out,0.5,
++place,神裂 火織,土御門 元春,上条 当麻（赤）,
++土御門 元春.fade,in,0.5,
++上条 当麻（赤）.fade,in,0.5,
++神裂 火織.fade,in,0.5,
++土御門 元春.facial,12,
++上条 当麻（赤）.facial,11,
++神裂 火織.facial,10,
+シーン03.fade,out,0.5,
+wait,2,
+bgm,play,30010011,,,
+fade,in,1,#FFFFFF,0,
+talk,25,土御門 元春,,,
++talk,show,1,
+talk,26,上条 当麻（赤）,,,
+talk,27,神裂 火織,,,
+talk,28,土御門 元春,,,
+talk,29,神裂 火織,,,
+bgm,stop,,,,
+se,play,300100000010,,,
+talk,30,上条 当麻（赤）,,,
+talk,31,上条 当麻（赤）,,,
++bgm,play,30010017,,,
+wait,1,
+fade,out,1,#FFFFFF,0,
+talk,show,0,
+image,400420103,4,シーン04,,
+シーン04.fade,in,0.5,
+wait,1,
+fade,in,1,#FFFFFF,0,
+talk,32,ステイル,,,
++talk,show,1,
+talk,33,ステイル,,,
+image,400420103,5,シーン05,,
+シーン05.fade,in,0.5,
+シーン04.fade,out,0.1,
+se,play,300500000030,,,
+talk,show,0,
+wait,1,
+image,400420103,6,シーン06,,
+シーン06.fade,in,0.5,
+シーン05.fade,out,0.1,
+se,play,300700000350,,,
++シーン06.shake,"(0.10,0)","(10,0)",1,
+wait,1,
+stage,7005003,,,,
+土御門 元春.fade,out,0.5,
++神裂 火織.fade,in,0.5,
++place,シャットアウラ,ステイル,上条 当麻（赤）,
++シャットアウラ.fade,in,0.5,
++ステイル.fade,in,0.5,
++上条 当麻（赤）.fade,in,0.5,
++シャットアウラ.facial,10,
++ステイル.facial,16,
++上条 当麻（赤）.facial,20,
+wait,1,
+シーン06.fade,out,0.5,
+talk,34,ステイル,,,
++talk,show,1,
+talk,35,上条 当麻（赤）,,,
+talk,36,ステイル,,,
+talk,37,上条 当麻（赤）,,,
+talk,38,ステイル,,,
+talk,39,ステイル,,,
+talk,40,ステイル,,,
+talk,41,ステイル,,,
+talk,42,上条 当麻（赤）,,,
+se,play,300100000430,,,
+image,400420103,55,シーン55,,
+シーン55.fade,in,0.5,
+wait,1,
+talk,43,レディリー,,,
+talk,44,シャットアウラ,,,
+image,400420103,56,シーン56,,
+シーン56.fade,in,0.5,
+シーン55.fade,out,0.1,
+talk,show,0,
+wait,1,
+image,400420103,57,シーン57,,
+シーン57.fade,in,0.5,
+シーン56.fade,out,0.1,
+wait,1,
+image,400420103,7,シーン07,,
+シーン07.fade,in,0.5,
+シーン57.fade,out,0.1,
+wait,1,
+talk,45,シャットアウラ,,,
++talk,show,1,
+talk,46,レディリー,,,
+talk,47,上条 当麻（赤）,,,
+talk,48,シャットアウラ,,,
+image,400420103,8,シーン08,,
+シーン08.fade,in,0.5,
+シーン07.fade,out,0.1,
+talk,show,0,
+wait,1,
+image,400420103,9,シーン09,,
+シーン09.fade,in,0.5,
+シーン08.fade,out,0.1,
+se,play,300700000350,,,
++シーン09.shake,"(0.10,0)","(10,0)",1,
+wait,1,
+fade,out,1,#FFFFFF,0,
+bgm,stop,,,,
+image,400420103,61,シーン61,,
+シーン61.fade,in,0.5,
+シーン09.fade,out,0.1,
+wait,1,
+bgm,play,30010009,,,
+fade,in,1,#FFFFFF,0,
+wait,1,
+image,400420103,10,シーン10,,
+シーン10.fade,in,0.5,
+シーン61.fade,out,0.1,
+wait,1,
+talk,49,鳴護 アリサ,,,
++talk,show,1,
+talk,50,シャットアウラ,,,
+image,400420103,62,シーン62,,
+シーン62.fade,in,0.5,
+シーン10.fade,out,0.1,
+wait,1,
+talk,51,レディリー,,,
+talk,52,レディリー,,,
+talk,53,レディリー,,,
+talk,54,レディリー,,,
+image,400420103,51,シーン51,,
+シーン51.fade,in,0.5,
+シーン62.fade,out,0.1,
+wait,1,
+talk,55,シャットアウラ,,,
+talk,56,レディリー,,,
+talk,57,レディリー,,,
+talk,58,レディリー,,,
+talk,59,シャットアウラ,,,
+bgm,stop,,,,
+wait,1,
+bgm,play,30010014,,,
+image,400420103,52,シーン52,,
+シーン52.fade,in,0.5,
+シーン51.fade,out,0.1,
+wait,1,
+talk,60,シャットアウラ,,,
+se,play,300700000070,,,
+image,400420103,53,シーン53,,
+シーン53.fade,in,0.5,
+シーン52.fade,out,0.1,
+wait,1,
+talk,61,レディリー,,,
+se,play,300700000040,,,
+wait,2,
+image,400420103,58,シーン58,,
+シーン58.fade,in,0.5,
+シーン53.fade,out,0.1,
+wait,1,
+talk,62,シャットアウラ,,,
+image,400420103,11,シーン11,,
+シーン11.fade,in,0.5,
+シーン58.fade,out,0.1,
+wait,1,
+talk,63,レディリー,,,
+talk,64,シャットアウラ,,,
+talk,65,レディリー,,,
+talk,66,レディリー,,,
+image,400420103,12,シーン12,,
+シーン12.fade,in,0.5,
+シーン11.fade,out,0.1,
+wait,1,
+talk,67,シャットアウラ,,,
+talk,68,レディリー,,,
+se,play,300200000052,,,
+bgm,stop,,,,
+wait,2,
+talk,show,0,
+bgm,play,30010008,,,
+image,400420103,59,シーン59,,
+シーン59.fade,in,0.5,
+シーン12.fade,out,0.1,
+wait,2,
+talk,69,レディリー,,,
++talk,show,1,
+talk,70,鳴護 アリサ,,,
+image,400420103,60,シーン60,,
+シーン60.fade,in,0.5,
+シーン59.fade,out,0.1,
+wait,1,
+talk,71,レディリー,,,
+talk,72,レディリー,,,
+wait,2,
+fade,out,1,#FFFFFF,0,
+bgm,stop,
+wait,1,
+[END],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

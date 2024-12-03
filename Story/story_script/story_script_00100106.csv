@@ -1,0 +1,6 @@
+#command,param1,param2,param3,param4,
+#,
+print,とある魔術の禁書目録１巻２章,
+bgm,stop,
+image,99999998,p0,
+talk,end,

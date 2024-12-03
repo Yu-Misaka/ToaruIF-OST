@@ -1,0 +1,95 @@
+#command,param1,param2,param3,param4,
+#,
+print,とある魔術の禁書目録5巻チャプター39,
+control,1,
+bgm,stop,
++image,100010539,2,シーン02,,
++シーン02.fade,in,0.1,
+bgm,play,30010021,1,,
+fade,in,1,#000000,0,
++talk,start,
++talk,show,0,
+se,play,300200000170,,,
+
+wait,1,
+talk,1,上条 当麻,,,
++talk,show,1,,,
+talk,2,闇咲 逢魔,,,
+talk,3,上条 当麻,,,
+fade,out,1,#ffffff,
+talk,show,0,
+image,100010130,11,シーン03,,
+シーン03.fade,in,0.5,
+fade,in,1,#ffffff,
+シーン02.fade,out,0.1,
+wait,1,
+talk,4,上条 当麻,,,
++talk,show,1,,,
+talk,5,上条 当麻,,,
+talk,6,上条 当麻,,,
+fade,out,1,#ffffff,
+talk,show,0,
+image,100010539,4,シーン04,,
+シーン04.fade,in,0.5,
+fade,in,1,#ffffff,
+シーン03.fade,out,0.1,
+wait,1,
+
+talk,7,上条 当麻,,,
++talk,show,1,,,
+
+talk,show,0,
+se,play,0300700000840,,,
+image,100010539,5,シーン05,,
+シーン05.fade,in,0.5,
+シーン04.fade,out,0.1,
+wait,1.5,
+
+image,100010539,6,シーン06,,
+シーン06.fade,in,0.5,
+シーン05.fade,out,0.1,
+wait,1.5,
+
+fade,out,1,#000000,0,
+image,100010539,7,シーン07,,
+se,play,300700000040,,,
+シーン07.fade,in,0.5,
+シーン06.fade,out,0.1,
+bgm,play,30010015,1,,
+fade,in,1,#000000,0,
+wait,1,
+
+talk,8,闇咲 逢魔,,,
++talk,show,1,,,
+talk,9,闇咲 逢魔,,,
+talk,10,闇咲 逢魔,,,
+
+talk,show,0,
+image,100010539,8,シーン08,,
+シーン08.fade,in,0.5,
+シーン07.fade,out,0.1,
+wait,1,
+
+talk,11,闇咲 逢魔,,,
++talk,show,1,,,
+
+talk,show,0,
+image,100010539,9,シーン09,,
+シーン09.fade,in,0.5,
+シーン08.fade,out,0.1,
+wait,1,
+
+wait,1,
+fade,out,1,#FFFFFF,
+bgm,stop,,1,
+wait,1,
+[END],
+
+
+
+
+
+
+
+
+

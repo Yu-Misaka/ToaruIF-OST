@@ -1,0 +1,46 @@
+#command,param1,param2,param3,param4,param5,param6,
+#,
+print,2022年ホワイトデー記念メッセージ chapter2,
+stage,000001010,,,,,,
+control,1,
+control,0,4,,,,,
+bgm,stop,1,
+chara,102000301,削板 軍覇,10,
+place,削板 軍覇,
++focus,on,削板 軍覇,
++削板 軍覇.fade,in,0.1,
++talk,start,
++talk,show,0,
+bgm,play,10030001,,,,,
+if_page,MemoriesExtra,[Memories],[NOTMemories],,,,
+[NOTMemories],MemoriesExtra,,,,,,
+削板 軍覇.fade,out,0.1,,,,,
+fade,in,1,#000000,0,,,
+wait,0.5,,,,,,
+talk,1,,,,,,
++talk,show,1,,,,,
+削板 軍覇.fade,in,1,,,,,
++focus,on,削板 軍覇,
+[Memories],,,,,,,
+if_page,MemoriesExtra,[Memories],[NOTMemories],,,,
+[Memories],,,,,,,
+fade,in,1,#000000,0,,,
+[NOTMemories],MemoriesExtra,,,,,,
+wait,0.5,
+talk,2,削板 軍覇,
++talk,show,1,
+talk,3,削板 軍覇,
+wait,1,
+open_reward,
+fade,out,1,#FFFFFF,0,
+bgm,stop,
+wait,1,
+[END],
+
+
+
+
+
+
+
+

@@ -1,0 +1,84 @@
+#command,param1,param2,param3,param4,
+print,チャプター25：地下街　絹旗 最愛　滝壺 理后　,
+control,1,
+bgm,stop,
+stage,015001001,,,,
+bgm,play,30010001,1,,
+chara,18000101,絹旗 最愛,10,
+chara,20000101,滝壺 理后,10,
+place,絹旗 最愛,滝壺 理后,
++絹旗 最愛.fade,out,0.1,
++滝壺 理后.fade,out,0.1,
+talk,start,
++talk,show,0,
++fade,in,1.0,#000000,0,
+絹旗 最愛.fade,in,0.5,
++talk,1,絹旗 最愛,
++talk,show,1,,,
+滝壺 理后.fade,in,0.5,
++talk,2,滝壺 理后,,,
+talk,3,絹旗 最愛,,,
+talk,4,滝壺 理后,,,
+talk,5,絹旗 最愛,,,
+talk,6,滝壺 理后,,,
+talk,7,絹旗 最愛,,,
+talk,8,滝壺 理后,,,
+talk,9,絹旗 最愛,,,
+talk,10,滝壺 理后,,,
+talk,11,絹旗 最愛,,,
+talk,12,滝壺 理后,,,
+talk,13,絹旗 最愛,,,
+talk,14,滝壺 理后,,,
+talk,15,絹旗 最愛,,,
+talk,16,滝壺 理后,,,
+wait,1,,,,
+fade,out,1.0,#FFFFFF,0,
+bgm,stop,
+wait,1,
+[END],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

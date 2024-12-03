@@ -1,0 +1,71 @@
+#command,param1,param2,param3,param4,
+#,
+print,周年記念カウントダウン0001 chapter2,
+stage,000001002,,,,
+control,1,
+control,0,4,,,
+bgm,stop,1,
+chara,1000101,上条 当麻,12,
+chara,1001101,上条 当麻_正月,11,
+chara,2000101,インデックス,12,
+chara,2001301,インデックス_クリスマス,12,
+image,999999999,1,シーン00,
+place,上条 当麻,インデックス,
++focus,on,インデックス,
++上条 当麻.fade,in,0.1,
++インデックス.fade,in,0.1,
++talk,start,
++talk,show,0,
+bgm,play,10030001,,,
+fade,in,1,#000000,0,
+wait,0.5,
+talk,1,インデックス,
++talk,show,1,
+talk,2,上条 当麻,
+screen.effect,ef_com_00000_001_011_00,"(0,0)",1,0,
++se,play,300200000170,,,
++シーン00.fade,in,0.5,
+talk,show,0,
++上条 当麻.fade,out,0.1,
++インデックス.fade,out,0.1,
++place,上条 当麻_正月,インデックス_クリスマス,
++focus,on,上条 当麻_正月,
++上条 当麻_正月.fade,in,0.1,
++インデックス_クリスマス.fade,in,0.1,
+wait,3,
+シーン00.fade,out,0.5,
+talk,3,上条 当麻_正月,
++talk,show,1,
+talk,4,インデックス_クリスマス,
+wait,1,
+open_reward,
+fade,out,1,#FFFFFF,0,
+bgm,stop,
+wait,1,
+[END],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

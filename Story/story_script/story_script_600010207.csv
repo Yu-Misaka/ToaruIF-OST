@@ -1,0 +1,70 @@
+#command,param1,param2,param3,param4,
+#,科学オンチ,
+control,1,
+chara,2000101,インデックス,16,
+chara,1000101,上条 当麻,10,
+talk,start,
++talk,show,0,
+stage,1001001,,,,
++fade,in,1.0,#000000,0,
++bgm,play,30010006,1,,
+talk,1,上条 当麻,,,
++talk,show,1,
++上条 当麻.fade,in,0.5,
++place,空白,上条 当麻,
+talk,2,インデックス,,,
++インデックス.fade,in,0.5,
++place,インデックス,上条 当麻,
+talk,3,上条 当麻,,,
+talk,4,インデックス,,,
+talk,5,上条 当麻,,,
+talk,6,インデックス,,,
+talk,7,上条 当麻,,,
+talk,8,インデックス,,,
+talk,9,上条 当麻,,,
+talk,10,インデックス,,,
+talk,11,上条 当麻,,,
+wait,1,,,,
+fade,out,1.0,#FFFFFF,0,
+bgm,stop,
+wait,1,
+[END],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

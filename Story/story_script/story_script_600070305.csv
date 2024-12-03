@@ -1,0 +1,88 @@
+#command,param1,param2,param3,param4,
+#,
+control,1,,,,
+chara,19000101,フレンダ,10,,
+chara,18000101,絹旗 最愛,10,,
+talk,start,,,,
++talk,show,0,,,
+place,絹旗 最愛,フレンダ,,,
++フレンダ.fade,out,0.1,,,
++絹旗 最愛.fade,out,0.1,,,
+stage,015001001,,,,
++fade,in,1.0,#000000,0,
++bgm,play,30010001,1,,
+# 会話開始,
+talk,1,フレンダ,,,
++talk,show,1,,,
++フレンダ.fade,in,0.5,,,
+talk,2,絹旗 最愛,,,
++絹旗 最愛.fade,in,0.5,,,
+talk,3,フレンダ,,,
+talk,4,絹旗 最愛,,,
+talk,5,フレンダ,,,
+talk,6,絹旗 最愛,,,
+talk,7,フレンダ,,,
+talk,8,絹旗 最愛,,,
+talk,9,フレンダ,,,
+talk,10,絹旗 最愛,,,
+talk,11,フレンダ,,,
+talk,12,絹旗 最愛,,,
+talk,13,フレンダ,,,
+talk,14,絹旗 最愛,,,
+talk,15,フレンダ,,,
+talk,16,絹旗 最愛,,,
+wait,1,,,,
+fade,out,1.0,#FFFFFF,0,
+bgm,stop,
+wait,1,
+[END],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

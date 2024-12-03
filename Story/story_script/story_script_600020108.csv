@@ -1,0 +1,72 @@
+#command,param1,param2,param3,param4,
+print,チャプター05：上条当麻の学校　月詠 小萌　　,
+control,1,
+bgm,stop,
+stage,2004001,,,,
+bgm,play,30010001,,,
+chara,6000101,月詠 小萌,10,
+place,月詠 小萌,
++月詠 小萌.fade,out,0.1,
+talk,start,
++talk,show,0,
++fade,in,1.0,#000000,0,
+月詠 小萌.fade,in,0.5,
++talk,1,月詠 小萌,,,
++talk,show,1,
+talk,2,月詠 小萌,,,
+talk,3,月詠 小萌,,,
+talk,4,月詠 小萌,,,
+talk,5,月詠 小萌,,,
+talk,6,月詠 小萌,,,
+talk,7,月詠 小萌,,,
+talk,8,月詠 小萌,,,
+wait,1,,,,
+fade,out,1.0,#FFFFFF,0,
+bgm,stop,
+wait,1,
+[END],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

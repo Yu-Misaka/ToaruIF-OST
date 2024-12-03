@@ -1,0 +1,76 @@
+#command,param1,param2,param3,param4,
+control,1,
+bgm,stop,
+stage,22001001,
+bgm,play,030010001,,,
+chara,4000102,御坂 美琴,15,
+chara,9000101,婚后 光子,11,
+place,御坂 美琴,婚后 光子,
++御坂 美琴.fade,out,0.1,
++婚后 光子.fade,out,0.1,
+talk,start,
++talk,show,0,
++fade,in,1.0,#000000,0,
+御坂 美琴.fade,in,0.5,
++talk,1,御坂 美琴,,,
++talk,show,1,
+婚后 光子.fade,in,0.5,
++talk,2,婚后 光子,,,
+talk,3,御坂 美琴,,,
+talk,4,婚后 光子,,,
+talk,5,御坂 美琴,,,
+talk,6,婚后 光子,,,
+talk,7,御坂 美琴,,,
+talk,8,婚后 光子,,,
+talk,9,御坂 美琴,,,
+talk,10,婚后 光子,,,
+talk,11,御坂 美琴,,,
+talk,12,婚后 光子,,,
+婚后 光子.move,1,5,1,
++se,play,0300200000090,
+婚后 光子.fade,out,0.5,
+wait,1,
+talk,13,御坂 美琴,,,
+wait,1,,,,
+fade,out,1.0,#FFFFFF,0,
+bgm,stop,
+wait,1,
+[END],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

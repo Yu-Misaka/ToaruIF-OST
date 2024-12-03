@@ -1,0 +1,277 @@
+#command,param1,param2,param3,param4,
+#,
+print,とある魔術の禁書目録9巻チャプター25,
+control,1,
++stage,7002001,,,,
+bgm,stop,
++chara,40000101,オリアナ,10,
++chara,1000301,上条 当麻,10,
++chara,3000301,土御門 元春,10,
++image,999999999,0,シーン00,
++シーン00.fade,in,0.1,
++place,土御門 元春,上条 当麻,
++fade,in,1,#000000,0,
++シーン00.fade,in,0.1,
++talk,start,
++talk,show,0,
+image,100010925,1,シーン01,,
+bgm,play,30010019,1,,
+シーン01.fade,in,0.5,
+se,play,300200000140,,,
+シーン00.fade,out,0.1,
+wait,1,
+talk,1,ステイル,,,
++talk,show,1,
+talk,2,土御門 元春,,,
+image,100010925,2,シーン02,,
+シーン02.fade,in,0.5,
+シーン01.fade,out,0.1,
+wait,1,
+talk,3,上条 当麻,,,
+talk,show,0,
+image,100010925,3,シーン03,
+シーン03.fade,in,0.5,,,
+se,play,300800000290,,,
+シーン02.fade,out,0.1,
+wait,1,
+talk,4,ステイル,,,
++talk,show,1,
+talk,show,0,
+image,100010925,5,シーン05,
+シーン05.fade,in,0.5,
+se,play,300200000140,,,
+シーン03.fade,out,0.1,,,
+wait,1,
+image,100010925,7,シーン07,
+シーン07.fade,in,0.5,
+シーン05.fade,out,0.1,,,
+wait,1,
+talk,5,上条 当麻,,,
++talk,show,1,
+talk,show,0,
+se,play,300200000100,,,
+image,100010925,10,シーン10,
+シーン10.fade,in,0.5,,,
+シーン07.fade,out,0.1,
+wait,1,
+image,100010925,12,シーン12,
+シーン12.fade,in,0.5,
+シーン10.fade,out,0.1,
+wait,1,
+image,100010925,14,シーン14,,
+シーン14.fade,in,0.5,
+se,play,300200000140,,,
+シーン12.fade,out,0.1,
+wait,1,,,,
+image,100010925,15,シーン15,
+シーン15.fade,in,0.5,
+シーン14.fade,out,0.1,
+wait,1,
+image,100010925,16,シーン16,,
+シーン16.fade,in,0.5,
+シーン15.fade,out,0.1,
+wait,1,
+talk,6,土御門 元春,,,
++talk,show,1,
+talk,show,0,
+image,100010925,17,シーン17,
+シーン17.fade,in,0.5,,,
+シーン16.fade,out,0.1,
+wait,1,
+se,play,300600000050,,,
+image,100010925,18,シーン18,
+シーン18.fade,in,0.5,,,
+シーン17.fade,out,0.1,
+wait,1,
+fade,out,1,#FFFFFF,0,
+talk,clear,
++上条 当麻.facial,13,
++土御門 元春.facial,13,
++focus,on,上条 当麻,
+シーン18.fade,out,0.1,
+fade,in,1,#FFFFFF,0,
+talk,7,上条 当麻,,,
++talk,show,1,
+talk,8,土御門 元春,,,
+talk,9,上条 当麻,,,
+talk,10,土御門 元春,,,
+talk,11,上条 当麻,,,
+fade,out,1,#FFFFFF,0,
+talk,show,0,
+image,100010925,19,シーン19,
+シーン19.fade,in,0.5,
+fade,in,1,#FFFFFF,0,
+talk,12,土御門 元春,,,
++talk,show,1,
+image,100010925,20,シーン20,
+シーン20.fade,in,0.5,
+シーン19.fade,out,0.1,
+wait,1,,,,
+talk,13,土御門 元春,,,
+talk,show,0,
+image,100010925,21,シーン21,
+シーン21.fade,in,0.5,
+シーン20.fade,out,0.1,,,
+wait,1,
+se,play,300700000710,,,
+image,100010925,22,シーン22,
+シーン22.fade,in,0.5,,,
+シーン21.fade,out,0.1,
+シーン22.shake,"(0.10,0)","(10,0)",1,
+wait,1,
+image,100010925,23,シーン23,
+シーン23.fade,in,0.5,,,
+シーン23.shake,"(0.10,0)","(10,0)",1,
+シーン22.fade,out,0.1,
+wait,1,
+image,100010925,24,シーン24,
+シーン24.fade,in,0.5,,,
+シーン23.fade,out,0.1,
+wait,1,
+talk,14,土御門 元春,,,
++talk,show,1,
+talk,show,0,
+bgm,stop,
+image,100010925,25,シーン25,,
+シーン25.fade,in,0.5,
+se,play,300700000180,1,,
+シーン24.fade,out,0.1,
+wait,1,
+bgm,play,30010017,,,
+image,100010925,27,シーン27,
+シーン27.fade,in,0.5,
+se,play,300700000710,,,
+シーン25.fade,out,0.1,,,
+wait,1,
+image,100010925,28,シーン28,
+シーン28.fade,in,0.5,
+シーン27.fade,out,0.1,
+wait,1,
+fade,out,1,#FFFFFF,0,
+talk,clear,
++上条 当麻.facial,13,
++オリアナ.facial,12,
+place,オリアナ,上条 当麻,
++focus,on,オリアナ,
+シーン28.fade,out,0.1,
+fade,in,1,#FFFFFF,0,
+talk,15,オリアナ,,,
++talk,show,1,
+talk,16,オリアナ,,,
+talk,17,上条 当麻,,,
+talk,18,オリアナ,,,
+talk,19,上条 当麻,,,
+talk,20,オリアナ,,,
+fade,out,1,#FFFFFF,0,
+talk,show,0,
+image,100010925,29,シーン29,
+シーン29.fade,in,0.5,,,
+se,play,300400000130,,,
+fade,in,1,#FFFFFF,0,
+wait,1,
+image,100010925,30,シーン30,
+シーン30.fade,in,0.5,,,
+se,play,300700000720,,,
+シーン30.shake,"(0.10,0)","(10,0)",1,
+シーン29.fade,out,0.1,
+wait,1,
+talk,21,土御門 元春,,,
++talk,show,1,
+talk,show,0,
+image,100010925,31,シーン31,
+シーン31.fade,in,0.5,
+シーン30.fade,out,0.1,
+wait,1,
+fade,out,1,#FFFFFF,0,
++上条 当麻.facial,13,
++オリアナ.facial,11,
++focus,on,オリアナ,
+シーン31.fade,out,0.1,
+fade,in,1,#FFFFFF,0,
+talk,22,オリアナ,,,
++talk,show,1,
+talk,23,上条 当麻,,,
+talk,24,オリアナ,,,
+talk,25,オリアナ,,,
+fade,out,1,#FFFFFF,0,
+talk,show,0,
+image,100010925,32,シーン32,
+シーン32.fade,in,0.5,
+fade,in,1,#FFFFFF,0,
+wait,1,
+talk,26,上条 当麻,,,
++talk,show,1,
+wait,1,
+fade,out,1,#FFFFFF,0,
+bgm,stop,
+wait,1,
+[END],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

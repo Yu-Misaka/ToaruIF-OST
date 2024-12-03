@@ -1,0 +1,62 @@
+#command,param1,param2,param3,param4,
+#,
+print,とある魔術の禁書目録5巻チャプター22,
+control,1,
+bgm,stop,
+chara,13000101,一方通行,13,
+chara,60000101,ファミレスの店員,14,
+chara,54000101,芳川 桔梗,13,
+place,芳川 桔梗,
++image,100010522,1,シーン01,,
++シーン01.fade,in,0.1,
+bgm,play,30010010,1,,
+fade,in,1,#000000,0,
++talk,start,
++talk,show,0,
++se,play,300200000100,,,
+
+wait,2,
+fade,out,1,#ｆｆｆｆｆｆ,0,
+wait,0.5,
+talk,show,0,
++芳川 桔梗.facial,13,
++stage,13001004,,,,
++place,芳川 桔梗,
++focus,on,芳川 桔梗,
+シーン01.fade,out,0.1,
+fade,in,1,#ｆｆｆｆｆｆ,0,
+talk,1,芳川 桔梗,,,
++talk,show,1,,,
+talk,2,芳川 桔梗,,,
+fade,out,1,#ｆｆｆｆｆｆ,0,
+wait,0.5,
+talk,show,0,
++一方通行.facial,13,
++ファミレスの店員.facial,14,
++stage,10001003,,,,
++place,一方通行,ファミレスの店員,
++focus,on,一方通行,
+シーン01.fade,out,0.1,
+fade,in,1,#ｆｆｆｆｆｆ,0,
+talk,3,一方通行,,,
++talk,show,1,,,
+talk,4,ファミレスの店員,,,
+talk,5,一方通行,,,
+
+wait,1,
+fade,out,1,#FFFFFF,
+bgm,stop,,1,
+wait,1,
+[END],
+
+
+
+
+
+
+
+
+
+
+
+
